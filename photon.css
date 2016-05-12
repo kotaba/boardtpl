@@ -1,0 +1,72 @@
+/* In memoriam */
+
+body {
+    background: #eee;
+    color: #333;
+}
+a:link, a:visited, p.intro a.email span.name {
+    color: #f60;
+}
+a:link:hover {
+    color: #06f;
+}
+a.post_no {
+    color: #333;
+}
+div.post.reply {
+    background: #ddd;
+    border-color: #ccc;
+}
+div.post.reply.highlighted {
+    background: #ddd;
+}
+div.post.reply div.body a {
+    color: #f60;
+    text-decoration: underline;
+}
+p.intro span.subject {
+    color: #024;
+}
+form table tr th {
+    background: #eee;
+}
+div.ban {
+    border-color: #000;
+}
+div.ban p {
+    color: black;
+}
+div.pages {
+    background: #ddd;
+    border-color: #bbb;
+}
+div.pages a.selected {
+    color: #333;
+}
+hr {
+    border-color: #333;
+}
+div.boardlist {
+    color: #333;
+}
+div.boardlist a {
+    color: #f60;
+}
+table.modlog tr th {
+    background: #EA8;
+}
+span.spoiler {
+    background: #666;
+    color: #666;
+}
+span.spoiler:hover {
+    color: #eee;
+}
+div.post.op.hover {
+    background: #ddd;
+}
+
+/*div[class*=hover] {
+	background: #;
+        border: 1px solid black;
+}*/
